@@ -19,3 +19,30 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#waveform {
+  width: 100%;
+  max-width: 100%;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.controls button {
+  margin: 1px;
+  border: 1px solid #ccc !important;
+}
+
+.controls button:hover {
+  background-color: #ececec;
+}
+
+.audio-info {
+  margin-top: 15px;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 15px;
+  display: inline-block;
+  font-size: 12px;
+}
